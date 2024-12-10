@@ -1,6 +1,9 @@
 import random
 print('                                                                Welcome to the number guessing game ')
 
+user_name = input('Please enter your name: ')
+print(f'Hello,', user_name,'\nHere are the rules:\nYou enter any random number, preferably an integer and the computer will randomly choose a number between your chosen number and 0.')
+
 upper_bound = input("Please type in any number: ")
 if upper_bound.isdigit():
     upper_bound = int(upper_bound)
